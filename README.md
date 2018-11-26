@@ -1,5 +1,5 @@
 # sillywalksaver
-macOS screensaver inspired by Monthy Python
+macOS screensaver inspired by [DIY Silly Walks clock](http://sillywalkclock.blogspot.com/) for my favourite Monty Python sketch.
 
 ![Screenshot](Release/screenshot.png)
 
