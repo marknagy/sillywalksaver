@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		DCAF0B1621AC975D007E9AFB /* sillywalksaverView.h in Headers */ = {isa = PBXBuildFile; fileRef = DCAF0B1521AC975D007E9AFB /* sillywalksaverView.h */; };
 		DCAF0B1821AC975D007E9AFB /* sillywalksaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAF0B1721AC975D007E9AFB /* sillywalksaverView.m */; };
+		DCAF0B2321AC9873007E9AFB /* minuteLeg.png in Resources */ = {isa = PBXBuildFile; fileRef = DCAF0B2021AC9873007E9AFB /* minuteLeg.png */; };
+		DCAF0B2421AC9873007E9AFB /* hourLeg.png in Resources */ = {isa = PBXBuildFile; fileRef = DCAF0B2121AC9873007E9AFB /* hourLeg.png */; };
+		DCAF0B2821ACA1FE007E9AFB /* clockface.png in Resources */ = {isa = PBXBuildFile; fileRef = DCAF0B2721ACA1FD007E9AFB /* clockface.png */; };
+		DCAF0B2C21ACA602007E9AFB /* bricks.png in Resources */ = {isa = PBXBuildFile; fileRef = DCAF0B2B21ACA602007E9AFB /* bricks.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +20,10 @@
 		DCAF0B1521AC975D007E9AFB /* sillywalksaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sillywalksaverView.h; sourceTree = "<group>"; };
 		DCAF0B1721AC975D007E9AFB /* sillywalksaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sillywalksaverView.m; sourceTree = "<group>"; };
 		DCAF0B1921AC975D007E9AFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCAF0B2021AC9873007E9AFB /* minuteLeg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minuteLeg.png; sourceTree = "<group>"; };
+		DCAF0B2121AC9873007E9AFB /* hourLeg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hourLeg.png; sourceTree = "<group>"; };
+		DCAF0B2721ACA1FD007E9AFB /* clockface.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clockface.png; sourceTree = "<group>"; };
+		DCAF0B2B21ACA602007E9AFB /* bricks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bricks.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +56,10 @@
 		DCAF0B1421AC975D007E9AFB /* sillywalksaver */ = {
 			isa = PBXGroup;
 			children = (
+				DCAF0B2B21ACA602007E9AFB /* bricks.png */,
+				DCAF0B2121AC9873007E9AFB /* hourLeg.png */,
+				DCAF0B2721ACA1FD007E9AFB /* clockface.png */,
+				DCAF0B2021AC9873007E9AFB /* minuteLeg.png */,
 				DCAF0B1521AC975D007E9AFB /* sillywalksaverView.h */,
 				DCAF0B1721AC975D007E9AFB /* sillywalksaverView.m */,
 				DCAF0B1921AC975D007E9AFB /* Info.plist */,
@@ -124,6 +136,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCAF0B2421AC9873007E9AFB /* hourLeg.png in Resources */,
+				DCAF0B2821ACA1FE007E9AFB /* clockface.png in Resources */,
+				DCAF0B2C21ACA602007E9AFB /* bricks.png in Resources */,
+				DCAF0B2321AC9873007E9AFB /* minuteLeg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,12 +263,15 @@
 		DCAF0B1D21AC975D007E9AFB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = USJ7XVC4L7;
 				INFOPLIST_FILE = sillywalksaver/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				PRODUCT_BUNDLE_IDENTIFIER = marknagy.sillywalksaver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Debug;
@@ -260,12 +279,15 @@
 		DCAF0B1E21AC975D007E9AFB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = USJ7XVC4L7;
 				INFOPLIST_FILE = sillywalksaver/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				PRODUCT_BUNDLE_IDENTIFIER = marknagy.sillywalksaver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Release;

@@ -9,5 +9,10 @@
 #import <ScreenSaver/ScreenSaver.h>
 
 @interface sillywalksaverView : ScreenSaverView
-
+{
+    CGFloat scale;
+    NSImage *clockFace;
+    NSImage *hourLeg;
+    NSImage *minuteLeg;
+}
 @end
