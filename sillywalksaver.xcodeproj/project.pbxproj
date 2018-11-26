@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCAF0B1621AC975D007E9AFB /* sillywalksaverView.h in Headers */ = {isa = PBXBuildFile; fileRef = DCAF0B1521AC975D007E9AFB /* sillywalksaverView.h */; };
+		DCAF0B1821AC975D007E9AFB /* sillywalksaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAF0B1721AC975D007E9AFB /* sillywalksaverView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DCAF0B1221AC975D007E9AFB /* sillywalksaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sillywalksaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCAF0B1521AC975D007E9AFB /* sillywalksaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sillywalksaverView.h; sourceTree = "<group>"; };
+		DCAF0B1721AC975D007E9AFB /* sillywalksaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sillywalksaverView.m; sourceTree = "<group>"; };
+		DCAF0B1921AC975D007E9AFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCAF0B0E21AC975D007E9AFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCAF0B0821AC975D007E9AFB = {
+			isa = PBXGroup;
+			children = (
+				DCAF0B1421AC975D007E9AFB /* sillywalksaver */,
+				DCAF0B1321AC975D007E9AFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCAF0B1321AC975D007E9AFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCAF0B1221AC975D007E9AFB /* sillywalksaver.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCAF0B1421AC975D007E9AFB /* sillywalksaver */ = {
+			isa = PBXGroup;
+			children = (
+				DCAF0B1521AC975D007E9AFB /* sillywalksaverView.h */,
+				DCAF0B1721AC975D007E9AFB /* sillywalksaverView.m */,
+				DCAF0B1921AC975D007E9AFB /* Info.plist */,
+			);
+			path = sillywalksaver;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DCAF0B0F21AC975D007E9AFB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAF0B1621AC975D007E9AFB /* sillywalksaverView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DCAF0B1121AC975D007E9AFB /* sillywalksaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCAF0B1C21AC975D007E9AFB /* Build configuration list for PBXNativeTarget "sillywalksaver" */;
+			buildPhases = (
+				DCAF0B0D21AC975D007E9AFB /* Sources */,
+				DCAF0B0E21AC975D007E9AFB /* Frameworks */,
+				DCAF0B0F21AC975D007E9AFB /* Headers */,
+				DCAF0B1021AC975D007E9AFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sillywalksaver;
+			productName = sillywalksaver;
+			productReference = DCAF0B1221AC975D007E9AFB /* sillywalksaver.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCAF0B0921AC975D007E9AFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Mark Nagy";
+				TargetAttributes = {
+					DCAF0B1121AC975D007E9AFB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DCAF0B0C21AC975D007E9AFB /* Build configuration list for PBXProject "sillywalksaver" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DCAF0B0821AC975D007E9AFB;
+			productRefGroup = DCAF0B1321AC975D007E9AFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCAF0B1121AC975D007E9AFB /* sillywalksaver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCAF0B1021AC975D007E9AFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCAF0B0D21AC975D007E9AFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAF0B1821AC975D007E9AFB /* sillywalksaverView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DCAF0B1A21AC975D007E9AFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DCAF0B1B21AC975D007E9AFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DCAF0B1D21AC975D007E9AFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = sillywalksaver/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = marknagy.sillywalksaver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		DCAF0B1E21AC975D007E9AFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = sillywalksaver/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = marknagy.sillywalksaver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCAF0B0C21AC975D007E9AFB /* Build configuration list for PBXProject "sillywalksaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCAF0B1A21AC975D007E9AFB /* Debug */,
+				DCAF0B1B21AC975D007E9AFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCAF0B1C21AC975D007E9AFB /* Build configuration list for PBXNativeTarget "sillywalksaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCAF0B1D21AC975D007E9AFB /* Debug */,
+				DCAF0B1E21AC975D007E9AFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCAF0B0921AC975D007E9AFB /* Project object */;
+}
