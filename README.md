@@ -5,6 +5,6 @@ macOS screensaver inspired by [DIY Silly Walks clock](http://sillywalkclock.blog
 ![Screenshot](Release/screenshot.png)
 
 ### How to use
-- [Download](https://github.com/marknagy/sillywalksaver/blob/master/Release/sillywalks.saver.zip)
+- [Download](https://github.com/marknagy/sillywalksaver/blob/master/Release/sillywalksaver.zip)
 - Unzip
 - Enjoy
